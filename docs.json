@@ -1,72 +1,83 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Northstar Knowledge Base",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Welcome",
         "pages": [
           "index",
-          "quickstart"
+          "quickstart",
+          "handbook/company-overview"
+        ]
+      },
+      {
+        "group": "Company handbook",
+        "pages": [
+          "handbook/glossary",
+          "handbook/writing-docs",
+          "team/zusammenarbeit"
+        ]
+      },
+      {
+        "group": "People & onboarding",
+        "pages": [
+          "onboarding/erste-schritte",
+          "people/time-off",
+          "people/expenses"
+        ]
+      },
+      {
+        "group": "IT & access",
+        "pages": [
+          "it/zugang-und-support",
+          "it/device-setup",
+          "it/software-access"
+        ]
+      },
+      {
+        "group": "Projects & operations",
+        "pages": [
+          "projects/project-lifecycle",
+          "prozesse/anfragen-und-freigaben",
+          "projects/decision-records"
+        ]
+      },
+      {
+        "group": "Security & privacy",
+        "pages": [
+          "sicherheit/informationssicherheit",
+          "security/data-classification",
+          "security/incident-reporting"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "templates/knowledge-article",
+          "templates/meeting-notes",
+          "hilfe/faq"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
   },
   "contextual": {
     "options": [
       "copy",
       "view",
       "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "claude"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
